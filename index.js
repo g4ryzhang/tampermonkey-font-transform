@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         tont-transform
-// @namespace    http://tampermonkey.net/
+// @name         font-transform
 // @version      0.0.1
 // @description  Enhance text content for a better reading experience
 // @author       g4ryzhang
 // @include      https://chat.openai.com/*
+// @updateURL    https://github.com/yee94/tampermonkey-iconfont-iconify/raw/main/index.user.js
+// @downloadURL  https://github.com/yee94/tampermonkey-iconfont-iconify/raw/main/index.user.js
 // @grant        none
 // ==/UserScript==
 
