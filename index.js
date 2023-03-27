@@ -10,10 +10,9 @@
 // ==/UserScript==
 
 const rf = () => {
-    document.body.querySelectorAll('*:not(.flex-col):not(.capandbold)').forEach(function(node) {
+    document.body.querySelectorAll('*:not(.flex-col):not(.capandbold)').forEach(node => {
         if (node.childElementCount == 0) {
-            const re = new RegExp(`\\b[A-Za-z]+\\b`, 'g');
-            node.innerHTML = node.textContent.replaceAll(re, match => {
+            node.innerHTML = node.textContent.replaceAll(/\b[A-Za-z]+\b/g, match => {
                 if (match.length < 3) return match;
                 const len = Math.round(match.length / 2);
                 return `<span class='capandbold' style='font-weight: 700;'>${match.substring(0, len)}</span>${match.substring(len)}`;
@@ -26,4 +25,3 @@ document.addEventListener("keydown", e => {
     if (e.code == 'F2') rf();
 });
 
-// renderFont();
