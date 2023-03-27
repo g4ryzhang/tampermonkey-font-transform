@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         font-transform
-// @version      0.0.1
+// @version      0.0.2
 // @description  Enhance text content for a better reading experience
 // @author       g4ryzhang
 // @include      https://chat.openai.com/*
