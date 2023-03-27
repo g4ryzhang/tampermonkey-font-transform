@@ -1,4 +1,4 @@
-# font-transform
+## font-transform
 Enhance text content for a better reading experience.
 
 This is a Tampermonkey UserScript that highlights text content in a unique way. 
