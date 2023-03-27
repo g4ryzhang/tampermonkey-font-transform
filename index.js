@@ -7,6 +7,7 @@
 // @updateURL    https://github.com/g4ryzhang/tampermonkey-font-transform/raw/main/index.js
 // @downloadURL  https://github.com/g4ryzhang/tampermonkey-font-transform/raw/main/index.js
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 const rf = () => {
